@@ -1,3 +1,4 @@
+//The keyboard controls of the character
 if (keyboard_check(ord("W"))){
 	y -= 10;
 }
