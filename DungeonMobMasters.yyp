@@ -135,6 +135,22 @@
             }
         },
         {
+            "Key": "8f0052ba-8409-4e52-b92d-bb44d571c7a0",
+            "Value": {
+                "id": "9784bade-ac25-45e1-bf6b-217d0edee43c",
+                "resourcePath": "objects\\leftWallObject\\leftWallObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a217e2a9-21b3-4814-91ed-2af236248cb9",
+            "Value": {
+                "id": "128ba86f-968b-4a24-8227-99330d468a9e",
+                "resourcePath": "sprites\\verticalWallSprite\\verticalWallSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad7b1475-ef7e-40df-a12d-d926d1c7e0e0",
             "Value": {
                 "id": "b96e9163-75ab-49a9-aca2-72ca703b8d1c",
