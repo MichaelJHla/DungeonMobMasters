@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "4be05150-3097-4b73-a1b3-8d54aa8435df",
+            "Value": {
+                "id": "68d80cc4-f014-452e-9fdc-039f22229bbc",
+                "resourcePath": "objects\\bulletObject\\bulletObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5d0a8999-4925-40c1-a2ae-c658e147eca5",
             "Value": {
                 "id": "097daf91-4847-4321-a1b8-6e03f2f8bcce",
@@ -138,7 +146,15 @@
             "Key": "8f0052ba-8409-4e52-b92d-bb44d571c7a0",
             "Value": {
                 "id": "9784bade-ac25-45e1-bf6b-217d0edee43c",
-                "resourcePath": "objects\\leftWallObject\\leftWallObject.yy",
+                "resourcePath": "objects\\verticalWallObject\\verticalWallObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "92440ed1-9f34-4d22-adb0-37ab005a8d76",
+            "Value": {
+                "id": "4f6fee45-4895-4170-bca4-950d80170494",
+                "resourcePath": "objects\\horizontalWallObject\\horizontalWallObject.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -164,6 +180,14 @@
                 "id": "78492a6f-aff8-414c-9f38-fa70d5511372",
                 "resourcePath": "objects\\enemyObject\\enemyObject.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b696c45d-5fef-4117-9c23-a81a4179b3f2",
+            "Value": {
+                "id": "90560074-e9c9-4486-8e48-3e81cbe81aba",
+                "resourcePath": "sprites\\bulletSprite\\bulletSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -196,6 +220,14 @@
                 "id": "928d7657-be67-408c-9e3f-dd96f360cead",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccde4b4c-2aa6-4f7c-bb5b-f807ace40010",
+            "Value": {
+                "id": "a49e0c2c-0d71-4753-8083-ab2bb35069f7",
+                "resourcePath": "sprites\\horizontalWallSprite\\horizontalWallSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

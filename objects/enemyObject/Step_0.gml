@@ -2,7 +2,7 @@
 // then this block of code is available
 if (clicked){
 	image_blend = c_olive;
-	//The keyboard controls of the character
+	//The keyboard controls of the character, additionally it check for a collision with a solid sprite
 	if (keyboard_check(ord("W")) && place_free(x, y - collisionSpd)){
 		y -= spd;
 	}

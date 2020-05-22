@@ -1,8 +1,8 @@
 {
-    "id": "8f0052ba-8409-4e52-b92d-bb44d571c7a0",
+    "id": "4be05150-3097-4b73-a1b3-8d54aa8435df",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "leftWallObject",
+    "name": "bulletObject",
     "eventList": [
         
     ],
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "a217e2a9-21b3-4814-91ed-2af236248cb9",
+    "solid": false,
+    "spriteId": "b696c45d-5fef-4117-9c23-a81a4179b3f2",
     "visible": true
 }
