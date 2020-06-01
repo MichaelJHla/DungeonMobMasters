@@ -4,6 +4,10 @@ clicked = false;
 //this represents the speed that an enemy object will go
 spd = 8;
 
+//These represent the movement multipliers
+horizMult = 0;
+vertMult = 0;
+
 //This represents collision speed to allow the user to walk even if they are colliding with an object
 collisionSpd = spd + 2;
 
