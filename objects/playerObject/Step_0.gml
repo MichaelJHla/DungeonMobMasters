@@ -1,12 +1,15 @@
-if (keyboard_check(ord("W"))){
-	y -= 10;
+if (place_free(x, y - collisionSpd)){
+	y -= spd;
 }
-if (keyboard_check(ord("S"))){
-	y += 10;
+if (place_free(x, y + collisionSpd)){
+	y += spd;
 }
-if (keyboard_check(ord("A"))){
-	x -= 10;
+if (place_free(x - collisionSpd, y)){
+	x -= spd;
 }
-if (keyboard_check(ord("D"))){
-	x += 10;
+if (place_free(x + collisionSpd, y)){
+	x += spd;
 }
+
+x -= spd;
+y -= spd;
