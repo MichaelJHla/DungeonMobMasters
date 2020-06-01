@@ -2,11 +2,12 @@
 spd = 10;
 
 //defaults to 0, but used to represent the direction the bullets will go
+// these will be recorded as multipliers rather than as specefic values
 vertMult = 0;
 horizMult = 0;
 
 //Checks what keys on the keyboard are being pressed to know the shot direction
-//In this case the direction of the bullets are determined by a multiplier
+//Changes the multiplier values accordingly
 if (keyboard_check(vk_up)){
 	vertMult = -1;
 }
