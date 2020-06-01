@@ -15,4 +15,17 @@ if (clicked){
 	if (keyboard_check(ord("D")) && place_free(x + collisionSpd, y)){
 		x += spd;
 	}
+	
+	if (keyboard_check(vk_up)){
+		instance_create_layer(x, y, layer, bulletObject);
+	}
+	if (keyboard_check(vk_down)){
+		instance_create_layer(x, y, layer, bulletObject);
+	}
+	if (keyboard_check(vk_left)){
+		instance_create_layer(x, y, layer, bulletObject);
+	}
+	if (keyboard_check(vk_right)){
+		instance_create_layer(x, y, layer, bulletObject);
+	}
 }

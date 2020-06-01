@@ -1,0 +1,2 @@
+x += horizSpd;
+y += vertSpd;
