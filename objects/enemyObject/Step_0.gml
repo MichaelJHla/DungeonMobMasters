@@ -16,16 +16,14 @@ if (clicked){
 		x += spd;
 	}
 	
-	if (keyboard_check(vk_up)){
-		instance_create_layer(x, y, layer, bulletObject);
-	}
-	if (keyboard_check(vk_down)){
-		instance_create_layer(x, y, layer, bulletObject);
-	}
-	if (keyboard_check(vk_left)){
-		instance_create_layer(x, y, layer, bulletObject);
-	}
-	if (keyboard_check(vk_right)){
-		instance_create_layer(x, y, layer, bulletObject);
+	//Reduces the cooldown each frame
+	shotCooldown--;
+	
+	//The keyboard controls to activate a shot
+	if (keyboard_check(vk_up)||keyboard_check(vk_down)||keyboard_check(vk_left)||keyboard_check(vk_right)){
+		if (shotCooldown <= 0){
+			instance_create_layer(x, y, layer, bulletObject);
+			shotCooldown = cooldownVal;
+		}
 	}
 }
