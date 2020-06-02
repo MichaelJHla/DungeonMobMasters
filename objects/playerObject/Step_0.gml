@@ -1,3 +1,5 @@
+// @desc Collision detection
+
 if (place_free(x, y - collisionSpd)){
 	y -= spd;
 }
