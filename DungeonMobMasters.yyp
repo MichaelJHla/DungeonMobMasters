@@ -183,6 +183,22 @@
             }
         },
         {
+            "Key": "b1e6170f-6ea8-4adb-b01c-98b0f658d7bb",
+            "Value": {
+                "id": "9d8ab64d-b836-4993-91ff-01d4bef5eddb",
+                "resourcePath": "sprites\\filledHealthSprite\\filledHealthSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3a6ce3d-7441-4319-a36f-440bbf8378bb",
+            "Value": {
+                "id": "d9f5bb18-83fb-42e1-86dc-fee196350e4b",
+                "resourcePath": "sprites\\emptyHealthSprite\\emptyHealthSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b696c45d-5fef-4117-9c23-a81a4179b3f2",
             "Value": {
                 "id": "90560074-e9c9-4486-8e48-3e81cbe81aba",
