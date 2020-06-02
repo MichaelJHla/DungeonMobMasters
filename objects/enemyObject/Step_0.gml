@@ -1,8 +1,9 @@
 //If this character is the active clicked character
 // then this block of code is available
 if (clicked){
-	image_blend = c_olive;
+	image_blend = c_olive; //Allows a visual queue of what character is selected
 	
+	//If a key is released the movement multiplier is set to 0
 	if (keyboard_check_released(ord("W")) || keyboard_check_released(ord("S"))){
 		vertMult = 0;
 	}
@@ -11,19 +12,30 @@ if (clicked){
 	}
 	
 	//The keyboard controls of the character, additionally it check for a collision with a solid sprite
-	if (keyboard_check(ord("W")) && place_free(x, y - collisionSpd)){
+	if (keyboard_check(ord("W"))){
 		vertMult = -1;
 	}
-	if (keyboard_check(ord("S"))&& place_free(x, y + collisionSpd)){
+	if (keyboard_check(ord("S"))){
 		vertMult = 1;
 	}
-	if (keyboard_check(ord("A")) && place_free(x - collisionSpd, y)){
+	if (keyboard_check(ord("A"))){
 		horizMult = -1;
 	}
-	if (keyboard_check(ord("D")) && place_free(x + collisionSpd, y)){
+	if (keyboard_check(ord("D"))){
 		horizMult = 1;
 	}
 	
+	//Checks the collision of the object
+	if (!place_free(x, y - collisionSpd) || !place_free(x, y + collisionSpd)){
+		vertMult = 0;
+	}
+	if (!place_free(x - collisionSpd, y) || !place_free(x + collisionSpd, y)){
+		horizMult = 0;
+	}
+	
+	//This block of code decides the movement speed of the character based off if they are moving in a
+	// single direction or diagonally. If diagonal the character speed is then based off a calulation
+	// so the player does not go faster than the desired speed
 	if (horizMult != 0 && vertMult != 0){
 		x+=sqrt((spd*spd)/2)*horizMult;
 		y+=sqrt((spd*spd)/2)*vertMult;
