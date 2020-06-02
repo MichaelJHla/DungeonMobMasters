@@ -10,6 +10,3 @@ if (place_free(x - collisionSpd, y)){
 if (place_free(x + collisionSpd, y)){
 	x += spd;
 }
-
-x -= spd;
-y -= spd;
