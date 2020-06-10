@@ -14,3 +14,5 @@ collisionSpd = spd + 2;
 //This represents the health value of the enemy character
 maxHp = 10;
 hp = maxHp;
+
+ds_list_add(global.enemyList, id);

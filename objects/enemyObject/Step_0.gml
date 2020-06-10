@@ -1,8 +1,6 @@
 //If this character is the active clicked character
 // then this block of code is available
 if (clicked){
-	image_blend = c_olive; //Allows a visual queue of what character is selected
-	
 	//If a key is released the movement multiplier is set to 0
 	if (keyboard_check_released(ord("W")) || keyboard_check_released(ord("S"))){
 		vertMult = 0;
@@ -25,6 +23,11 @@ if (clicked){
 		horizMult = 1;
 	}
 	
+	//This is a testing block of code
+	if (keyboard_check(ord("X"))){
+		clicked = false;
+	}
+	
 	//Checks the collision of the object
 	if (!place_free(x, y - collisionSpd) || !place_free(x, y + collisionSpd)){
 		vertMult = 0;
@@ -44,4 +47,6 @@ if (clicked){
 		y+=spd*vertMult;
 	}
 	
+	characterHighlightObject.x = x;
+	characterHighlightObject.y = y;
 }
