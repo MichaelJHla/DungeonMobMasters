@@ -47,6 +47,7 @@ if (clicked){
 		y+=spd*vertMult;
 	}
 	
+	//When the character is selected, the highlight sprite surronds the player
 	characterHighlightObject.x = x;
 	characterHighlightObject.y = y;
 }

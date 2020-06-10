@@ -15,4 +15,5 @@ collisionSpd = spd + 2;
 maxHp = 10;
 hp = maxHp;
 
+//When any enemy is made, it is added to the list of enemies
 ds_list_add(global.enemyList, id);
