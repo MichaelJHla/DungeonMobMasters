@@ -14,7 +14,3 @@ collisionSpd = spd + 2;
 //This represents the health value of the enemy character
 maxHp = 10;
 hp = maxHp;
-
-//This represents the shot cooldown value of the character
-cooldownVal = 20;
-shotCooldown = cooldownVal;
