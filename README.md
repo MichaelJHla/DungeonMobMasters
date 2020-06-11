@@ -12,8 +12,10 @@ meelee mechanics in the future. Currently the user can hotswap between charaters
 The currently implemented controls are as follows:
 
 - WASD control movement of the currently selected object
-- arrow keys are used to shoot in 8 different directions
+- left mouse is clicked to shoot a bullet to the cursor location
 - Q and E are used to swap between the different characters
+- The mouse wheel is used to swap between the different characters
+- The number keys can be used to swap between the different characters
 
 ### Development
 The game is developed using GameMaker Studio 2. This program allows the best usability for a novice game developer such
