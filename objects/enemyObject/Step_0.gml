@@ -23,23 +23,23 @@ if (clicked){
 		horizMult = 1;
 	}
 	
-	//Checks the collision of the object
-	if (!place_free(x, y - collisionSpd) || !place_free(x, y + collisionSpd)){
-		vertMult = 0;
-	}
-	if (!place_free(x - collisionSpd, y) || !place_free(x + collisionSpd, y)){
-		horizMult = 0;
-	}
-	
 	//This block of code decides the movement speed of the character based off if they are moving in a
 	// single direction or diagonally. If diagonal the character speed is then based off a calulation
 	// so the player does not go faster than the desired speed
 	if (horizMult != 0 && vertMult != 0){
-		x+=sqrt((spd*spd)/2)*horizMult;
-		y+=sqrt((spd*spd)/2)*vertMult;
+		newXPos = x + sqrt((spd*spd)/2)*horizMult;
+		newYPos = y + sqrt((spd*spd)/2)*vertMult;
 	} else {
-		x+=spd*horizMult;
-		y+=spd*vertMult;
+		newXPos = x + spd*horizMult;
+		newYPos = y + spd*vertMult;
+	}
+	
+	//Checks the collision of the object
+	if (place_free(newXPos, newYPos - collisionSpd) && place_free(newXPos, newYPos + collisionSpd)){
+		y = newYPos;
+	}
+	if (place_free(newXPos - collisionSpd, newYPos) && place_free(newXPos + collisionSpd, newYPos)){
+		x = newXPos;
 	}
 	
 	//When the character is selected, the highlight sprite surronds the player
