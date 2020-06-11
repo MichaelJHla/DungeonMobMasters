@@ -1,29 +1,41 @@
 //If this character is the active clicked character
 // then this block of code is available
 if (clicked){
-	image_blend = c_olive;
+	//If a key is released the movement multiplier is set to 0
+	if (keyboard_check_released(ord("W")) || keyboard_check_released(ord("S"))){
+		vertMult = 0;
+	}
+	if (keyboard_check_released(ord("A")) || keyboard_check_released(ord("D"))){
+		horizMult = 0;
+	}
+	
 	//The keyboard controls of the character, additionally it check for a collision with a solid sprite
-	if (keyboard_check(ord("W")) && place_free(x, y - collisionSpd)){
-		y -= spd;
+	if (keyboard_check(ord("W"))){
+		vertMult = -1;
 	}
-	if (keyboard_check(ord("S"))&& place_free(x, y + collisionSpd)){
-		y += spd;
+	if (keyboard_check(ord("S"))){
+		vertMult = 1;
 	}
-	if (keyboard_check(ord("A")) && place_free(x - collisionSpd, y)){
-		x -= spd;
+	if (keyboard_check(ord("A"))){
+		horizMult = -1;
 	}
-	if (keyboard_check(ord("D")) && place_free(x + collisionSpd, y)){
-		x += spd;
+	if (keyboard_check(ord("D"))){
+		horizMult = 1;
 	}
 	
-	//Reduces the cooldown each frame
-	shotCooldown--;
+	event_inherited();//Inherits the previous event in the proper location
 	
-	//The keyboard controls to activate a shot
-	if (keyboard_check(vk_up)||keyboard_check(vk_down)||keyboard_check(vk_left)||keyboard_check(vk_right)){
-		if (shotCooldown <= 0){
-			instance_create_layer(x, y, layer, bulletObject);
-			shotCooldown = cooldownVal;
-		}
-	}
+	//When the character is selected, the highlight sprite surronds the player
+	characterHighlightObject.x = x;
+	characterHighlightObject.y = y;
+} else {
+	//Makes it so the enemy object movement multipliers are set to 0 when they are not selected
+	// this way when the user returns to an object they do not move unintentionally
+	horizMult = 0;
+	vertMult = 0;
+}
+
+//Destroys the instance if the health goes below 0
+if (hp <= 0){
+	instance_destroy();
 }
