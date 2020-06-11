@@ -23,11 +23,6 @@ if (clicked){
 		horizMult = 1;
 	}
 	
-	//This is a testing block of code
-	if (keyboard_check(ord("X"))){
-		clicked = false;
-	}
-	
 	//Checks the collision of the object
 	if (!place_free(x, y - collisionSpd) || !place_free(x, y + collisionSpd)){
 		vertMult = 0;
