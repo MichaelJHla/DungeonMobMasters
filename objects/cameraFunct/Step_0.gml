@@ -1,6 +1,6 @@
 //Used for smooth camera movement when the camera follow is changed
-x += (xTo - x)/25;
-y += (yTo - y)/25;
+x += (xTo - x)/15;
+y += (yTo - y)/15;
 
 //if statement that follows either the player object or the current enemy object
 if (followPlayerObj){
