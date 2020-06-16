@@ -1,9 +1,10 @@
 //Used for smooth camera movement when the camera follow is changed
-x += (xTo - x)/15;
-y += (yTo - y)/15;
+//The lower the denominator, the faster the camera
+x += (xTo - x)/cameraTransitionSpeed;
+y += (yTo - y)/cameraTransitionSpeed;
 
 //if statement that follows either the player object or the current enemy object
-if (followPlayerObj){
+if (followPlayerObj && instance_exists(playerObject)){
 	xTo = playerObject.x;
 	yTo = playerObject.y;
 } else {

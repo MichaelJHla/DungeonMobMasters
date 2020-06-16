@@ -22,3 +22,5 @@ yTo = y;
 
 //This boolean statement is used to tell the camera to follow an enemy object or the player object
 followPlayerObj = true;
+
+cameraTransitionSpeed = 15;
