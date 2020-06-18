@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1e66ad6c-5a3b-4971-b7e6-3f00c1a58a50",
+            "Value": {
+                "id": "76a5ad54-d3a2-4ac2-bd88-138f0bbed569",
+                "resourcePath": "objects\\guiFunct\\guiFunct.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24c7e99f-4322-4c79-816e-d0f555ff2929",
             "Value": {
                 "id": "6219d5a1-3306-46b7-903d-37e7a64aebb6",
@@ -140,6 +148,14 @@
                 "id": "68d80cc4-f014-452e-9fdc-039f22229bbc",
                 "resourcePath": "objects\\bulletObject\\bulletObject.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4f7b4794-7669-472e-bcc4-88b48cb51fb0",
+            "Value": {
+                "id": "bea153fc-195a-4ab3-9f90-4e6459acf85d",
+                "resourcePath": "sprites\\sprite10\\sprite10.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
