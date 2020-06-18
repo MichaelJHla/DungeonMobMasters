@@ -8,7 +8,7 @@
         "92440ed1-9f34-4d22-adb0-37ab005a8d76"
     ],
     "filterType": "GMObject",
-    "folderName": "Enviromental",
+    "folderName": "enviromental",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
