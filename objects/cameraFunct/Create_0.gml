@@ -27,4 +27,4 @@ followPlayerObj = true;
 
 //This is the denominator value for the transition of the camera.
 //The lower the number the faster the transition speed
-cameraTransitionSpeed = 15;
+cameraTransitionSpeed = 12;

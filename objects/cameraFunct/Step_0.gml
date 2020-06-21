@@ -8,8 +8,8 @@ if (followPlayerObj && instance_exists(playerObject)){
 	xTo = playerObject.x;
 	yTo = playerObject.y;
 } else {
-	xTo = follow.x;
-	yTo = follow.y;
+	xTo = (follow.x*3 + mouse_x)/4;
+	yTo = (follow.y*3 + mouse_y)/4;
 }
 
 //Update the matrix inside the camera
