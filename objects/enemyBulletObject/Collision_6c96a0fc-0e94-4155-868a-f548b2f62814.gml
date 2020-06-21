@@ -1,4 +1,4 @@
-//Bullet collides with any object
+//Bullet collides with any player object
 with(other){
 	hp--;
 }

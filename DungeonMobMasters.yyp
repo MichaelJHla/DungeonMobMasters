@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "41bd534a-cd02-48d2-a45e-f2e55fb3057a",
+            "Value": {
+                "id": "a37904dd-b093-46da-acdb-4e9936fc3568",
+                "resourcePath": "objects\\playerBulletObject\\playerBulletObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43fe578f-519e-4bfa-8597-0791856dcf4b",
             "Value": {
                 "id": "6e2fa157-caf4-4580-b65b-85d2c8454481",
@@ -170,7 +178,7 @@
             "Key": "4be05150-3097-4b73-a1b3-8d54aa8435df",
             "Value": {
                 "id": "68d80cc4-f014-452e-9fdc-039f22229bbc",
-                "resourcePath": "objects\\bulletObject\\bulletObject.yy",
+                "resourcePath": "objects\\enemyBulletObject\\enemyBulletObject.yy",
                 "resourceType": "GMObject"
             }
         },
