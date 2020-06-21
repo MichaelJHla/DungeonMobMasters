@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "a2240983-d687-4502-bf03-7cbd3211f0ef",
+            "Value": {
+                "id": "a76cdbbd-e937-477e-b4ec-afd7b7028c32",
+                "resourcePath": "sprites\\hotswitchBarGui\\hotswitchBarGui.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "def4a516-44be-4f9e-b193-408032e579de",
