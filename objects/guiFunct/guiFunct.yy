@@ -1,10 +1,19 @@
 {
-    "id": "94dbc7ed-eb85-4d9d-bd94-e172bc3947ab",
+    "id": "1e66ad6c-5a3b-4971-b7e6-3f00c1a58a50",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "characterHighlightObject",
+    "name": "guiFunct",
     "eventList": [
-        
+        {
+            "id": "33c313e4-96cd-4ef6-9fa0-2c395d8771f7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "1e66ad6c-5a3b-4971-b7e6-3f00c1a58a50"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "fb641f05-ec52-4015-89ea-94e093af73eb",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
