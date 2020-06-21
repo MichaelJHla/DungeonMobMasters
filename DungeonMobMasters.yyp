@@ -255,14 +255,6 @@
             }
         },
         {
-            "Key": "94dbc7ed-eb85-4d9d-bd94-e172bc3947ab",
-            "Value": {
-                "id": "07149edd-6ba8-438e-9097-e9db5df7301c",
-                "resourcePath": "objects\\characterHighlightObject\\characterHighlightObject.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a123f6f5-8aab-4428-9f0d-4b7100ba063a",
             "Value": {
                 "id": "5b342ae4-e7bf-4d13-8542-d8ac6823c5d2",
@@ -372,6 +364,14 @@
                 "id": "985f6ea1-e6fc-436a-bf23-ac508b5cd3e2",
                 "resourcePath": "views\\c3905a1c-7b51-4bfd-94e3-0d38f98fb8db.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c79587e2-87fc-4bde-9657-51a6326c1fcb",
+            "Value": {
+                "id": "1ab2a993-19c2-4d67-a6b4-473168ce9bbd",
+                "resourcePath": "sprites\\characterHighlightGui\\characterHighlightGui.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

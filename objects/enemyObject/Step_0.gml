@@ -24,10 +24,6 @@ if (clicked){
 	}
 	
 	event_inherited();//Inherits the previous event in the proper location
-	
-	//When the character is selected, the highlight sprite surronds the player
-	characterHighlightObject.x = x;
-	characterHighlightObject.y = y;
 } else {
 	//Makes it so the enemy object movement multipliers are set to 0 when they are not selected
 	// this way when the user returns to an object they do not move unintentionally
