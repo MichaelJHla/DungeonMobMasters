@@ -19,4 +19,18 @@ if (followPlayerObj && instance_exists(playerObject)){
 x = clamp(x, cameraWidth/2, room_width - (cameraWidth/2));
 y = clamp(y, cameraHeight/2, room_height - (cameraHeight/2));
 var vm = matrix_build_lookat(x, y, -10, x, y, 0, 0, 1, 0);
+var pm = matrix_build_projection_ortho(cameraWidth, cameraHeight, 1, 10000);
+
+//Sets the matrices to the camera
+camera_set_proj_mat(camera, pm);
 camera_set_view_mat(camera, vm);
+
+//This if statement makes it so that if the tab button is held down the whole room can be viewed
+if (keyboard_check(vk_tab)){
+	var vm = matrix_build_lookat(room_width/2, room_height/2, -10, room_width/2, room_height/2, 0, 0, 1, 0);
+	var pm = matrix_build_projection_ortho(room_width, room_height, 1, 10000);
+
+	//Sets the matrices to the camera
+	camera_set_proj_mat(camera, pm);
+	camera_set_view_mat(camera, vm);
+}
