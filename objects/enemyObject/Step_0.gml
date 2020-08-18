@@ -9,7 +9,7 @@ if (clicked){
 		horizMult = 0;
 	}
 	
-	//The keyboard controls of the character, additionally it check for a collision with a solid sprite
+	//Keyboard controls of the character, additionally it check for a collision with a solid sprite
 	if (keyboard_check(ord("W"))){
 		vertMult = -1;
 	}

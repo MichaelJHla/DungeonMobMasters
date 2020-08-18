@@ -1,10 +1,10 @@
 //This block of code decides the movement speed of the character based off if they are moving in a
 // single direction or diagonally. If diagonal the character speed is then based off a calulation
 // so the player does not go faster than the desired speed
-if (horizMult != 0 && vertMult != 0){
+if (horizMult != 0 && vertMult != 0){//Diagnol movement
 	newXPos = x + sqrt((spd*spd)/2)*horizMult;
 	newYPos = y + sqrt((spd*spd)/2)*vertMult;
-} else {
+} else {//Single direction movement
 	newXPos = x + spd*horizMult;
 	newYPos = y + spd*vertMult;
 }
