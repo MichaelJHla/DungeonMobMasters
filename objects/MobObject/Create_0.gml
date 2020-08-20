@@ -6,4 +6,4 @@ event_inherited();
 selected = false;
 
 //When created, add the id of this object to the list of mobs in the level
-ds_list_add(LevelLogic.enemyList, id);
+ds_list_add(LevelLogic.mobList, id);
