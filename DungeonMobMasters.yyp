@@ -2,6 +2,8 @@
   "resources": [
     {"id":{"name":"HeroObject","path":"objects/HeroObject/HeroObject.yy",},"order":1,},
     {"id":{"name":"CharacterObject","path":"objects/CharacterObject/CharacterObject.yy",},"order":0,},
+    {"id":{"name":"CameraObject","path":"objects/CameraObject/CameraObject.yy",},"order":0,},
+    {"id":{"name":"MainGUIHandler","path":"objects/MainGUIHandler/MainGUIHandler.yy",},"order":0,},
     {"id":{"name":"HeroSprite","path":"sprites/HeroSprite/HeroSprite.yy",},"order":0,},
     {"id":{"name":"MobSprite","path":"sprites/MobSprite/MobSprite.yy",},"order":1,},
     {"id":{"name":"MobObject","path":"objects/MobObject/MobObject.yy",},"order":2,},

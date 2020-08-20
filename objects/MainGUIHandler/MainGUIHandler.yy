@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "MobSprite",
-    "path": "sprites/MobSprite/MobSprite.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "CharacterObject",
-    "path": "objects/CharacterObject/CharacterObject.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Characters",
-    "path": "folders/Objects/Characters.yy",
+    "name": "GUI",
+    "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "MobObject",
+  "name": "MainGUIHandler",
   "tags": [],
   "resourceType": "GMObject",
 }
