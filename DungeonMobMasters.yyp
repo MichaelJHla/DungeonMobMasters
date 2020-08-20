@@ -1,7 +1,5 @@
 {
   "resources": [
-    {"id":{"name":"HeroSprite","path":"sprites/HeroSprite/HeroSprite.yy",},"order":0,},
-    {"id":{"name":"MobSprite","path":"sprites/MobSprite/MobSprite.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -47,7 +45,7 @@
     "IDEVersion": "2.3.0.529",
   },
   "resourceVersion": "1.3",
-  "name": "DMM_FromScratch",
+  "name": "DungeonMobMasters",
   "tags": [],
   "resourceType": "GMProject",
 }
