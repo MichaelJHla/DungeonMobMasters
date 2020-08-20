@@ -1,7 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"HeroObject","path":"objects/HeroObject/HeroObject.yy",},"order":1,},
+    {"id":{"name":"CharacterObject","path":"objects/CharacterObject/CharacterObject.yy",},"order":0,},
     {"id":{"name":"HeroSprite","path":"sprites/HeroSprite/HeroSprite.yy",},"order":0,},
     {"id":{"name":"MobSprite","path":"sprites/MobSprite/MobSprite.yy",},"order":1,},
+    {"id":{"name":"MobObject","path":"objects/MobObject/MobObject.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
