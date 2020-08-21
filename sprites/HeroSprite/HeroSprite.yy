@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 16,
-  "bbox_top": 1,
-  "bbox_bottom": 16,
+  "bbox_left": 0,
+  "bbox_right": 33,
+  "bbox_top": 0,
+  "bbox_bottom": 33,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 18,
-  "height": 18,
+  "width": 34,
+  "height": 34,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6ce59fcc-e861-428c-b47b-ddbe4f78e73a","path":"sprites/HeroSprite/HeroSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6ce59fcc-e861-428c-b47b-ddbe4f78e73a","path":"sprites/HeroSprite/HeroSprite.yy",},"LayerId":{"name":"8e9117b6-76b9-4fff-9cd8-38c44686c6df","path":"sprites/HeroSprite/HeroSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"HeroSprite","path":"sprites/HeroSprite/HeroSprite.yy",},"resourceVersion":"1.0","name":"6ce59fcc-e861-428c-b47b-ddbe4f78e73a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c7994e89-f8d3-41cb-93e0-174bfa9e555f","path":"sprites/HeroSprite/HeroSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c7994e89-f8d3-41cb-93e0-174bfa9e555f","path":"sprites/HeroSprite/HeroSprite.yy",},"LayerId":{"name":"7b611189-f84a-4831-8e60-936f035a8af2","path":"sprites/HeroSprite/HeroSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"HeroSprite","path":"sprites/HeroSprite/HeroSprite.yy",},"resourceVersion":"1.0","name":"c7994e89-f8d3-41cb-93e0-174bfa9e555f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"HeroSprite","path":"sprites/HeroSprite/HeroSprite.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1bed587a-094b-4fe5-8e58-08d7bf108efc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6ce59fcc-e861-428c-b47b-ddbe4f78e73a","path":"sprites/HeroSprite/HeroSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1b682364-b73c-4ae1-8873-3e0ff692df81","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c7994e89-f8d3-41cb-93e0-174bfa9e555f","path":"sprites/HeroSprite/HeroSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 9,
-    "yorigin": 9,
+    "xorigin": 17,
+    "yorigin": 17,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"HeroSprite","path":"sprites/HeroSprite/HeroSprite.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8e9117b6-76b9-4fff-9cd8-38c44686c6df","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7b611189-f84a-4831-8e60-936f035a8af2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Characters",
