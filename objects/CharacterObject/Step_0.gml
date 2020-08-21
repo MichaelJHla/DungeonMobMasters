@@ -1,3 +1,8 @@
 //Update the location of the object based on movement direction
-x += horizMoveMult * spd;
-y += vertMoveMult * spd;
+if (horizMoveMult != 0 && vertMoveMult != 0){ //diagonal movement
+	x += sqrt((spd*spd)/2)*horizMoveMult;
+	y += sqrt((spd*spd)/2)*vertMoveMult;
+} else { //Single direction movement
+	x += horizMoveMult * spd;
+	y += vertMoveMult * spd;
+}
