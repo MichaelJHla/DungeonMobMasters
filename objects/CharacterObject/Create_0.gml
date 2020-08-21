@@ -8,3 +8,4 @@ spd = 5; //The default speed for any chatacter is 5
 horizMoveMult = 0;
 vertMoveMult = 0;
 
+weapons[0] = instance_create_depth(x, y, 0, PeaShooterObject);
