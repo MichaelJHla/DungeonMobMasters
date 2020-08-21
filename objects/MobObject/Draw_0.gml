@@ -9,3 +9,5 @@ if (selected){
 } else {
 	draw_self();
 }
+
+draw_text(x, y, ds_list_find_index(LevelLogic.mobList, id) + 1);
