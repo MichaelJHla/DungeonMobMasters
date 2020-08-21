@@ -1,1 +1,1 @@
-x -= spd;
+x += spd; //Testing direction

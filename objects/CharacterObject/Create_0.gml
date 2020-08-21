@@ -8,4 +8,5 @@ spd = 5; //The default speed for any chatacter is 5
 horizMoveMult = 0;
 vertMoveMult = 0;
 
+//Makes the default weapon for any character the pea shooter
 weapons[0] = instance_create_depth(x, y, 0, PeaShooterObject);

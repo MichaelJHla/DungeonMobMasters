@@ -1,1 +1,1 @@
-spd = 10;
+spd = 10; //The projectile speed
