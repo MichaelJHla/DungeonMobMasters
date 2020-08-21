@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 23,
-  "bbox_top": 0,
+  "bbox_right": 11,
+  "bbox_top": 1,
   "bbox_bottom": 7,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 24,
+  "width": 12,
   "height": 8,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0741c82b-2fd9-4e2f-9b32-ac4b2b3b51cb","path":"sprites/ShotgunSprite/ShotgunSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0741c82b-2fd9-4e2f-9b32-ac4b2b3b51cb","path":"sprites/ShotgunSprite/ShotgunSprite.yy",},"LayerId":{"name":"e331ea8d-b09b-4b9c-aa36-e711b361b497","path":"sprites/ShotgunSprite/ShotgunSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"ShotgunSprite","path":"sprites/ShotgunSprite/ShotgunSprite.yy",},"resourceVersion":"1.0","name":"0741c82b-2fd9-4e2f-9b32-ac4b2b3b51cb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b50ed56e-c898-4a80-93c1-201c6e1311cd","path":"sprites/PeaShooterSprite/PeaShooterSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b50ed56e-c898-4a80-93c1-201c6e1311cd","path":"sprites/PeaShooterSprite/PeaShooterSprite.yy",},"LayerId":{"name":"ac6ffa83-da70-4113-98ef-9d843248455f","path":"sprites/PeaShooterSprite/PeaShooterSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PeaShooterSprite","path":"sprites/PeaShooterSprite/PeaShooterSprite.yy",},"resourceVersion":"1.0","name":"b50ed56e-c898-4a80-93c1-201c6e1311cd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"ShotgunSprite","path":"sprites/ShotgunSprite/ShotgunSprite.yy",},
+    "spriteId": {"name":"PeaShooterSprite","path":"sprites/PeaShooterSprite/PeaShooterSprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c0da15af-e544-42ee-8c91-41d9f9b4cc92","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0741c82b-2fd9-4e2f-9b32-ac4b2b3b51cb","path":"sprites/ShotgunSprite/ShotgunSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1111a595-747a-4477-8819-a269f7104796","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b50ed56e-c898-4a80-93c1-201c6e1311cd","path":"sprites/PeaShooterSprite/PeaShooterSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,25 +54,25 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 23,
+    "xorigin": 11,
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"ShotgunSprite","path":"sprites/ShotgunSprite/ShotgunSprite.yy",},
+    "parent": {"name":"PeaShooterSprite","path":"sprites/PeaShooterSprite/PeaShooterSprite.yy",},
     "resourceVersion": "1.3",
-    "name": "ShotgunSprite",
+    "name": "PeaShooterSprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e331ea8d-b09b-4b9c-aa36-e711b361b497","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ac6ffa83-da70-4113-98ef-9d843248455f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Weapons",
     "path": "folders/Sprites/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ShotgunSprite",
+  "name": "PeaShooterSprite",
   "tags": [],
   "resourceType": "GMSprite",
 }
