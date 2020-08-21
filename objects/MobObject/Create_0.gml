@@ -13,3 +13,8 @@ upixelW = shader_get_uniform(WhiteOutlineShader, "pixelW");
 upixelH = shader_get_uniform(WhiteOutlineShader, "pixelH");
 texelW = texture_get_texel_width(sprite_get_texture(MobSprite, 0));
 texelH = texture_get_texel_height(sprite_get_texture(MobSprite, 0));
+
+//When a new mob is added, rerun the current character command to highlight the current character
+with (LevelLogic){
+	event_user(0);
+}
