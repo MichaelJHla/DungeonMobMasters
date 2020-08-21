@@ -7,3 +7,4 @@ spd = 5; //The default speed for any chatacter is 5
 // negative direction on any specific axis
 horizMoveMult = 0;
 vertMoveMult = 0;
+
