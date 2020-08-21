@@ -24,4 +24,7 @@ if (selected){
 	vertMoveMult = 0;
 }
 
+weapons[0].x = x;
+weapons[0].y = y;
+
 event_inherited();
