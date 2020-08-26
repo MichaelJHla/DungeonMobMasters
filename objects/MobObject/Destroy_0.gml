@@ -1,3 +1,5 @@
+event_inherited();
+
 //This if statement is used to make the index proper based on what mob was killed
 if (ds_list_find_index(LevelLogic.mobList, id) < LevelLogic.curIndex){
 	LevelLogic.curIndex--;
