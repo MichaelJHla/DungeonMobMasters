@@ -1,3 +1,7 @@
+//Make the current weapon location in the hands of the character
+weapons[currentWeapon].x = x;
+weapons[currentWeapon].y = y;
+
 //Update the location of the object based on movement direction
 if (horizMoveMult != 0 && vertMoveMult != 0){ //diagonal movement
 	x += sqrt((spd*spd)/2)*horizMoveMult;
