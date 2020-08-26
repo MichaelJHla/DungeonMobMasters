@@ -7,5 +7,8 @@ if (ds_list_find_index(LevelLogic.mobList, id) < LevelLogic.curIndex){
 ds_list_delete(LevelLogic.mobList, ds_list_find_index(LevelLogic.mobList, id));
 
 with (LevelLogic) { //Places the highlight on the proper character
+	if (curIndex >= ds_list_size(mobList)){//Safety check to make sure the index is not too high
+		curIndex--;
+	}
 	event_user(0);
 }
