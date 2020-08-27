@@ -3,4 +3,6 @@ cooldown = 0;
 
 bulletType = PelletObject;//Denotes what type of bullet the gun uses
 
-readyToFire = true;
+readyToFire = true;//When a weapon is created, it can be fired instantly
+
+available = true;
