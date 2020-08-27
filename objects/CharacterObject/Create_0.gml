@@ -10,7 +10,7 @@ vertMoveMult = 0;
 
 //Makes the default weapon for any character the pea shooter
 weapons[0] = instance_create_depth(-100, -100, 0, PeaShooterObject);
-weapons[1] = instance_create_depth(-100, -100, 0, RIfleObject);
+weapons[1] = instance_create_depth(-100, -100, 0, ShotgunObject);
 
 //This indicates which weapon is currently being used
 currentWeapon = 0;

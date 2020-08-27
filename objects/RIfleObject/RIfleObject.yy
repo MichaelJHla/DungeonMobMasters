@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"RIfleObject","path":"objects/RIfleObject/RIfleObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"RifleObject","path":"objects/RifleObject/RifleObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "RIfleObject",
+  "name": "RifleObject",
   "tags": [],
   "resourceType": "GMObject",
 }
