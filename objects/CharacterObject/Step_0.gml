@@ -10,3 +10,7 @@ if (horizMoveMult != 0 && vertMoveMult != 0){ //diagonal movement
 //Make the current weapon location in the hands of the character
 weapons[currentWeapon].x = x;
 weapons[currentWeapon].y = y;
+
+if (curHp <= 0){
+	instance_destroy();
+}
