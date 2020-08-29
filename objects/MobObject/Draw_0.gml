@@ -10,4 +10,5 @@ if (selected){
 	draw_self();
 }
 
+//This draws the number of the mob onto the mob itself
 draw_text(x, y, ds_list_find_index(LevelLogic.mobList, id) + 1);

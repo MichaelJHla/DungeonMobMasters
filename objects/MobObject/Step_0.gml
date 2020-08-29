@@ -24,8 +24,11 @@ if (selected){
 	vertMoveMult = 0;
 }
 
+//Deactivates the movement of all weapons in any mobs hands
 weapons[0].active = false;
 weapons[1].active = false;
+
+//If this mob is the currently active mob, then make their currently held weapon active
 if (selected){
 	weapons[currentWeapon].active = true;
 }
