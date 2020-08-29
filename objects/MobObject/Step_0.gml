@@ -24,5 +24,10 @@ if (selected){
 	vertMoveMult = 0;
 }
 
-event_inherited();
+weapons[0].active = false;
+weapons[1].active = false;
+if (selected){
+	weapons[currentWeapon].active = true;
+}
 
+event_inherited();
