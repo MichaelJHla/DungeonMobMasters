@@ -8,3 +8,7 @@ readyToFire = true;//When a weapon is created, it can be fired instantly
 available = true;//Denotes whether the gun object is on the ground and available to be picked up
 
 active = false;//Denotes whether this gun is currently active by the user
+
+//These represent the offset from the origin point at which projectiles fire
+fireOffsetX = 10;
+fireOffsetY = -3;
