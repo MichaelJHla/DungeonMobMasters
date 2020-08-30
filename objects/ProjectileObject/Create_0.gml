@@ -1,3 +1,3 @@
 //Default values
 speed = 10;
-dmg = 1;
+dmg = 10;
