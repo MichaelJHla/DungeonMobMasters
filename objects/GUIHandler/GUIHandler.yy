@@ -17,7 +17,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"GUIHandler","path":"objects/GUIHandler/GUIHandler.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -25,7 +27,7 @@
     "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "MainGUIHandler",
+  "name": "GUIHandler",
   "tags": [],
   "resourceType": "GMObject",
 }
