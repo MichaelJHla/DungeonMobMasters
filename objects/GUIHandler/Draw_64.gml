@@ -10,7 +10,7 @@ if (object_exists(MobObject)){
 	draw_sprite_stretched(weaponSprite, -1, 20, display_get_gui_height()-60, weaponSpriteW*4, weaponSpriteH*4);
 	
 	var cooldownProgress = curWeapon.cooldown / curWeapon.maxCooldown;
-	var sizedCooldown = cooldownProgress * (weaponSpriteH * 5);
+	var sizedCooldown = cooldownProgress * (weaponSpriteH * 4);
 	
-	draw_sprite_stretched(GenericOverlaySprite, -1, 10, display_get_gui_height()-60, weaponSpriteW*5, sizedCooldown);
+	draw_sprite_stretched(GenericOverlaySprite, -1, 10, display_get_gui_height()-60, weaponSpriteW*4 + 20, sizedCooldown);
 }
